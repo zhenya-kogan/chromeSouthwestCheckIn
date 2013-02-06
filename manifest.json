@@ -1,0 +1,14 @@
+{
+    "name": "Southwest check in",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Checks into southwest flights",
+    "content_scripts": [
+    {
+        "matches": ["http://www.southwest.com/flight/*"],
+        "all_frames": true,
+        "js": ["jquery.js","script.js"]
+    }]
+}
+
+
